@@ -1,7 +1,8 @@
 body{
 	/*background-color:rgb(39,162,192);*/
-	background-color:hsl(239,90%,75%);
-
+	/*background-color:hsl(239,90%,75%);*/
+	background:linear-gradient(white,black);
+	/*background-color:black;*/
 }
 
 .nav-wrapper{
@@ -32,11 +33,12 @@ body{
 }
 
 @keyframes mymove {
-    50% {text-shadow: 10px 20px 30px blue;}
+    50% {text-shadow: 10px 20px 30px white;}
 }
 
 .card{
-	background-color:rgb(255,255,140);
+	/*background-color:rgb(255,255,140);*/
+	background-image :url("homebackground2.jpg");
 	margin-left:20px;
 	margin-right:20px;
 	border-radius:10px;
@@ -72,4 +74,8 @@ body{
 .message{
 	padding:0px;
 	margin:0px;
+}
+
+.home{
+	background-color:white;
 }
