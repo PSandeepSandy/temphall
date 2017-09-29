@@ -1,0 +1,75 @@
+body{
+	/*background-color:rgb(39,162,192);*/
+	background-color:hsl(239,90%,75%);
+
+}
+
+.nav-wrapper{
+	background-color:red;
+}
+
+.headertabs{
+	color:black;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.message{
+	color:black;
+}
+
+.card-content{
+	color:black;
+	line-height:120%;
+	font-size:1.2em;	
+}
+
+.header{
+	color:rgb(255,143,62);
+	padding-top:25px;
+	font-style: italic;
+	animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px blue;}
+}
+
+.card{
+	background-color:rgb(255,255,140);
+	margin-left:20px;
+	margin-right:20px;
+	border-radius:10px;
+	box-shadow: 15px 20px 30px black;
+}
+ 
+.card-content{
+	height:100%;
+}
+
+.card-image{
+	width:20%;
+	height:15%;
+	margin-left:5px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border: 3px outset black;
+	border-radius:10px;
+}
+
+.warden-pic{
+	background-image:url("pen.jpg");
+	height:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:content;
+}
+
+.panel{
+	height:416px;
+}
+
+.message{
+	padding:0px;
+	margin:0px;
+}
